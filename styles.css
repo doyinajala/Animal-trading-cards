@@ -1,0 +1,41 @@
+/* add your CSS here */
+box
+{
+	box-sizing: border-box;
+}
+
+div  
+{
+    border: 1px solid #d2d0d0;
+    padding: 0 10px;
+}
+img
+{
+	width: 300px;
+}
+
+.container 
+{
+    width: 320px;
+    box-shadow: 8px 6px 2px #f2f2f2;
+}
+.card-information            
+{
+   	width: 300px;
+    margin: 5px 0;
+}
+/*The :first-child selector allows you to target the first element immediately inside another element.*/
+.card-information > p:first-child       
+{
+	font-style: italic;
+}
+span 
+{
+    font-weight: bold;
+}
+
+ul                             
+{
+    list-style: none;
+    padding: 0;
+}
